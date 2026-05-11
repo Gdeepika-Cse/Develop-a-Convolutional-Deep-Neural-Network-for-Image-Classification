@@ -1,3 +1,5 @@
+# NAME: DEEPIKA G
+# REG.NO: 212224040060
 # Develop a Convolutional Deep Neural Network for Image Classification
 
 ## AIM
@@ -7,7 +9,8 @@ To develop a convolutional deep neural network (CNN) for image classification an
 Include the Problem Statement and Dataset.
 
 ## Neural Network Model
-Include the neural network model diagram.
+
+<img width="1066" height="499" alt="586405134-7a35a71c-35e1-4d05-814d-7ea6b0498eea" src="https://github.com/user-attachments/assets/aa7ec169-4cb5-4367-825d-07f1eed06abc" />
 
 ## DESIGN STEPS
 ## STEP 1:
