@@ -6,11 +6,23 @@
 To develop a convolutional deep neural network (CNN) for image classification and to verify the response for new images.
 
 ##   PROBLEM STATEMENT AND DATASET
-Include the Problem Statement and Dataset.
+The problem is to design and develop a Convolutional Deep Neural Network (CNN) that can automatically classify grayscale images into predefined categories. The model must learn important spatial features such as edges, textures, and shapes from image data and accurately predict the correct class label.
+Problem Statement:
+To develop and train a Convolutional Neural Network (CNN) model using PyTorch for classifying images from the Fashion-MNIST dataset into different clothing categories accurately.
+
+# Dataset:
+The Fashion-MNIST dataset is a collection of grayscale images consisting of 10 different categories of fashion products such as T-shirts, trousers, dresses, shoes, bags, and more. Each image is of size 28 × 28 pixels. The dataset contains:
+
+Training Images: 60,000
+Testing Images: 10,000
+Number of Classes: 10
+Image Type: Grayscale
+Image Size: 28 × 28 pixels
+The dataset is loaded directly using torchvision.datasets.FashionMNIST in PyTorch.
 
 ## Neural Network Model
 
-<img width="1066" height="499" alt="586405134-7a35a71c-35e1-4d05-814d-7ea6b0498eea" src="https://github.com/user-attachments/assets/aa7ec169-4cb5-4367-825d-07f1eed06abc" />
+<img width="1102" height="748" alt="592892609-cba87068-781f-4447-8344-56fe34229207" src="https://github.com/user-attachments/assets/07f5192a-67be-471a-b833-714c80a0d297" />
 
 ## DESIGN STEPS
 ## STEP 1:
@@ -34,7 +46,6 @@ Evaluate the trained model on test images and verify the classification accuracy
 ## PROGRAM
 
 ### Name:DEEPIKA G
-
 ### Register Number:212224040060
 
 ```
@@ -63,7 +74,6 @@ class CNNClassifier(nn.Module):
 model =CNNClassifier()
 criterion =nn.CrossEntropyLoss()
 optimizer =optim.Adam(model.parameters(), lr=0.001)
-
 
 ## Step 3: Train the Model
 def train_model(model, train_loader, num_epochs=3):
